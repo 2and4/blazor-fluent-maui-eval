@@ -1,0 +1,66 @@
+/* _content/Blazor.App.Core.Views/Links/TasksLinkView.razor.rz.scp.css */
+.link-container[b-myaui0pcn0] {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+}
+
+.counter-container[b-myaui0pcn0] {
+    margin: 0 2px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: calc(var(--stroke-width) * 1px) solid color-mix(in srgb,var(--neutral-foreground-rest),#0000 90%);
+    background: color-mix(in srgb,var(--neutral-foreground-rest),#0000 97%);
+}
+/* _content/Blazor.App.Core.Views/Tasks/TasksView.razor.rz.scp.css */
+.title-container[b-hvnld9hjye] {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto auto;
+    align-items: center;
+    gap: 10px;
+}
+
+.listbox-container[b-hvnld9hjye] {
+    overflow-y: auto;
+    margin: 0 -10px -10px 0;
+}
+
+.option-item[b-hvnld9hjye] {
+    display: flex;
+    align-items: center;
+}
+
+.option-container[b-hvnld9hjye] {
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 15px;
+    margin: 0 5px;
+    flex: 1;
+}
+
+.option-selector[b-hvnld9hjye] {
+    position: absolute;
+    width: 3px;
+    height: calc(((var(--base-height-multiplier) + var(--density)) * var(--design-unit) / 2) * 1px);
+    background-color: var(--accent-fill-rest);
+    border-radius: calc(var(--control-corner-radius) * 1px);
+    margin: 0 0 0 -10px;
+    z-index: 100000 !important;
+}
+
+.option-title[b-hvnld9hjye] {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.option-subtitle[b-hvnld9hjye] {
+    font-size: 12px;
+}
+
+.option-selection[b-hvnld9hjye] {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}

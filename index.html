@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <meta name="description" content="This application serves as an evaluation tool for combining Microsoft technologies: Blazor, Fluent UI, and .NET MAUI.">
+    <title>Blazor Fluent Maui Eval</title>
+    <base href="/blazor-fluent-maui-eval/" />
+    <link rel="manifest" href="_content/Blazor.App.Core/manifest.json" />
+    <link rel="icon" href="_content/Blazor.App.Core/favicon.ico" />
+    <link rel="stylesheet" href="_content/Microsoft.FluentUI.AspNetCore.Components/css/reboot.css" />
+    <link rel="stylesheet" href="Blazor.App.Wasm.styles.css" />
+    <link rel="stylesheet" href="_content/Blazor.App.Core/css/styles.css" />
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="_content/Blazor.Shared.Views/js/internal/index.js" type="module"></script>
+    <script src="_content/Microsoft.FluentUI.AspNetCore.Components/js/loading-theme.js"></script>
+    <!--<script>navigator.serviceWorker.register('_content/Blazor.App.Core/js/external/service-worker.js');</script>-->
+</head>
+<body>
+    <loading-theme storage-name="theme"></loading-theme>
+    <div id="app">
+        <div class="loading-indicator">
+            <div class="loading-progress-text"></div>
+            <svg class="loading-progress">
+                <circle r="40%" cx="50%" cy="50%" />
+                <circle r="40%" cx="50%" cy="50%" />
+            </svg>
+        </div>
+    </div>
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+</body>
+</html>

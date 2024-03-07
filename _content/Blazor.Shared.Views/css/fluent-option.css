@@ -1,0 +1,34 @@
+﻿fluent-option {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    height: auto;
+    margin: 2.5px;
+    padding: 0 calc(var(--stroke-width) * 1px) 0 10px;
+    min-height: calc((var(--base-height-multiplier) + var(--density)) * var(--design-unit) * 1px);
+    border: calc(var(--stroke-width) * 1px) solid color-mix(in srgb,var(--neutral-foreground-rest),#0000 90%);
+    background-color: color-mix(in srgb,var(--neutral-foreground-rest),#0000 99%);
+}
+
+    fluent-option::before {
+        height: calc(((var(--base-height-multiplier) + var(--density)) * var(--design-unit) / 2) * 1px);
+    }
+
+    fluent-option::part(content) {
+        justify-self: auto;
+    }
+
+    fluent-option:nth-child(even) {
+        background-color: color-mix(in srgb,var(--neutral-foreground-rest),#0000 97%);
+    }
+
+        fluent-option:hover, fluent-option[aria-selected='true'], fluent-option:nth-child(even):hover {
+            background-color: color-mix(in srgb,var(--neutral-foreground-rest),#0000 95%);
+        }
+
+        fluent-option:active, fluent-option:nth-child(even):active {
+            background-color: color-mix(in srgb,var(--neutral-foreground-rest),#0000 90%);
+        }
+
+.fluent-option-disable-selector fluent-option::before {
+    height: 0;
+}

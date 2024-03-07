@@ -1,0 +1,39 @@
+﻿div:has(> fluent-listbox) {
+    border: unset !important;
+}
+
+fluent-select::part(listbox) {
+    background-color: var(--neutral-layer-1) !important;
+    animation: slideInTop 300ms !important;
+}
+
+.fluent-listbox-selector fluent-listbox:focus-within:not([disabled]) {
+    outline: unset !important;
+}
+
+.fluent-listbox-selector fluent-button {
+    width: 100%;
+}
+
+    .fluent-listbox-selector fluent-button::part(control) {
+        justify-content: left;
+        padding: 12px;
+    }
+
+    .fluent-listbox-selector fluent-button::part(content) {
+        flex: 1;
+        text-align: left;
+    }
+
+.fluent-listbox-selector .fluent-overlay {
+    z-index: unset !important;
+}
+
+.fluent-listbox-selector fluent-anchored-region {
+    position: unset !important;
+    transform: unset !important;
+}
+
+    .fluent-listbox-selector fluent-anchored-region .fluent-popover-content {
+        padding: 0 !important;
+    }

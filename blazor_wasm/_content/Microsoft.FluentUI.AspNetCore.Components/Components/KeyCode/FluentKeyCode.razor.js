@@ -1,5 +1,8 @@
-export function RegisterKeyCode(id, onlyCodes, excludeCodes, stopPropagation, preventDefault, dotNetHelper) {
-    const element = document.getElementById(id);
+export function RegisterKeyCode(globalDocument, id, elementRef, onlyCodes, excludeCodes, stopPropagation, preventDefault, preventDefaultOnly, dotNetHelper) {
+    const element = globalDocument
+        ? document
+        : elementRef == null ? document.getElementById(id) : elementRef;
+
     if (!!element) {
         element.addEventListener('keydown', function (e) {
             const keyCode = e.which || e.keyCode || e.charCode;
@@ -7,13 +10,15 @@ export function RegisterKeyCode(id, onlyCodes, excludeCodes, stopPropagation, pr
             if (!!dotNetHelper && !!dotNetHelper.invokeMethodAsync) {
 
                 const targetId = e.currentTarget?.id ?? "";
+                const isPreventDefault = preventDefault || (preventDefaultOnly.length > 0 && preventDefaultOnly.includes(keyCode));
+                const isStopPropagation = stopPropagation;
 
                 // Exclude
                 if (excludeCodes.length > 0 && excludeCodes.includes(keyCode)) {
-                    if (preventDefault) {
+                    if (isPreventDefault) {
                         e.preventDefault();
                     }
-                    if (stopPropagation) {
+                    if (isStopPropagation) {
                         e.stopPropagation();
                     }
                     return;
@@ -21,10 +26,10 @@ export function RegisterKeyCode(id, onlyCodes, excludeCodes, stopPropagation, pr
 
                 // All or Include only
                 if (onlyCodes.length == 0 || (onlyCodes.length > 0 && onlyCodes.includes(keyCode))) {
-                    if (preventDefault) {
+                    if (isPreventDefault) {
                         e.preventDefault();
                     }
-                    if (stopPropagation) {
+                    if (isStopPropagation) {
                         e.stopPropagation();
                     }
                     dotNetHelper.invokeMethodAsync("OnKeyDownRaisedAsync", keyCode, e.key, e.ctrlKey, e.shiftKey, e.altKey, e.metaKey, e.location, targetId);

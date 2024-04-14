@@ -3,13 +3,17 @@
     height: 100vh !important;
 }
 
-fluent-anchored-region {
-    animation: fadeIn 300ms;
+fluent-anchored-region > div {
+    background-color: unset !important;
+    box-shadow: unset !important;
 }
 
-    fluent-anchored-region > div {
-        border-radius: 5px;
-    }
+.fluent-popover-content, .fluent-datepicker-popup {
+    background-color: var(--neutral-layer-floating) !important;
+    box-shadow: var(--elevation-shadow-flyout) !important;
+    border-radius: 5px;
+    animation: fadeIn 300ms;
+}
 
 .fluent-popover-content {
     padding: 10px 15px !important;

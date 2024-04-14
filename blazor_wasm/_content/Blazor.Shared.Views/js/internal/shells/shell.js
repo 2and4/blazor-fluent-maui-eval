@@ -69,8 +69,8 @@ export class Shell {
         });
     }
     OnSceenSizeChangedAsync(isMobile) {
-        var _a, _b;
         return __awaiter(this, void 0, void 0, function* () {
+            var _a, _b;
             if (!isMobile) {
                 yield ((_a = this._callback) === null || _a === void 0 ? void 0 : _a.invokeMethodAsync("OnScreenChanged", isMobile));
                 return;

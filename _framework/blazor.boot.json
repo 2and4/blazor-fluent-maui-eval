@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Blazor.App.Wasm",
   "resources": {
-    "hash": "sha256-MTyFeJsa98VneGlcIh0y2vbE04S3qqDvI48WOF0/nQA=",
+    "hash": "sha256-A1gGklN4imJ8CTd7VEBIiQlS2AMETAU6mOwEDt/yLH0=",
     "jsModuleNative": {
       "dotnet.native.8.0.4.x4dtp32a66.js": "sha256-Z9AZ1P+IRel393fo3vYK1L/PgtoN4V/fMZz5UV7wguE="
     },
@@ -9,23 +9,23 @@
       "dotnet.runtime.8.0.4.ogva3chynz.js": "sha256-JeVsECOqOie/Pe89n9PJNJaMmb5vJsAAxfXY8INN64A="
     },
     "wasmNative": {
-      "dotnet.native.wasm": "sha256-xIm6ZWD/yvGguam4JDDFouRAPIzSDqC3S98aB01pcRk="
+      "dotnet.native.wasm": "sha256-c/YNInVlNmLk5V91D9hrOYRTlJPqiB24Y1ij51bG/qQ="
     },
     "icu": {
       "icudt.dat": "sha256-tO5O5YzMTVSaKBboxAqezOQL9ewmupzV2JrB5Rkc8a4="
     },
     "assembly": {
-      "Blazor.App.Core.Presenters.wasm": "sha256-nikAeak9mRpcFJlaBs+CF78lEJ9Lpw7MVCy3DRPTpu4=",
-      "Blazor.App.Core.Services.wasm": "sha256-52gtdRb1+GbzHphDwONMmAIECpunp98rtg5NnG8Ey1A=",
-      "Blazor.App.Core.Views.wasm": "sha256-F6O97Fhx3IelKy75ufJXJ75C0QlLCBAm8CEQp8xUsr0=",
-      "Blazor.App.Core.wasm": "sha256-Vd3LHWcl/nSBoZkXOwBwLtt5WnkIlvHjIh8dLWFm9rA=",
-      "Blazor.App.Wasm.wasm": "sha256-zCPfMnSRroMKoa4wwBI6M2NAW+QKKGNPIQHRclg7m+o=",
-      "Blazor.Shared.Presenters.wasm": "sha256-P0b7hsw7x8uUf8J3fw9p3/x5WWyMsycQ1cX6pIOdQzI=",
-      "Blazor.Shared.Services.wasm": "sha256-yyIN8XfLBJZbs8pjmZDom03lBXaFJM/jG4fICuXkJpc=",
-      "Blazor.Shared.Views.wasm": "sha256-FeP2CySS8SYsbhQnhYL9+bmMP4miQnatgJHnU+W3KWY=",
+      "Blazor.App.Core.Presenters.wasm": "sha256-f11zx14L6oAPQWCBnZbuNoMDwUSw2y4aif6+rLG3fFs=",
+      "Blazor.App.Core.Services.wasm": "sha256-SW52qX0HPF94CThdyg31UvsnWevKXUXDaJYQROXfwEU=",
+      "Blazor.App.Core.Views.wasm": "sha256-YVu6h+8EjdVUcIVt+qHjRAeKuXoifiJK+r8poF2SpeE=",
+      "Blazor.App.Core.wasm": "sha256-cPcv+2w7J2PXFUWTk0ZxT4YkQJUBQMHRx9NLiRitmQ4=",
+      "Blazor.App.Wasm.wasm": "sha256-/Upc8LiVV9DC8S91gh3sMP3BTyEhphdeViAMGBXglRI=",
+      "Blazor.Shared.Presenters.wasm": "sha256-L3ApVeQH9+aRjCvfZX8ts1wMCjKB5n+scy98I/Foi3A=",
+      "Blazor.Shared.Services.wasm": "sha256-KRA4AHSzwZUcBSvm8KZIrfGm0kNWG38yJN80vLZrXXA=",
+      "Blazor.Shared.Views.wasm": "sha256-/YC++nrVJgRUny05Vbl/2BdNAp1uArsQhK6HBZDCpMg=",
       "Microsoft.AspNetCore.Components.Forms.wasm": "sha256-WPpJ8JOSG5z+UW/CXsjLFg8Rp1lgufvca7GjORNsm/g=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-3CEM5PojrRM4rqsmSbzVsCrcRtHbsbQ6iH0XIQ5SXlM=",
-      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-LFtz1MqQGB5w0hPIWYfZtJNBJPApOIkluRXFflP5Ky8=",
+      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-eTKiTIv2h7yhHseBO2rmhKKPohJrqDf0fOwNaR8r41o=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-xxIlP2Z45u7omuA7UdCxuCXCmbXrskj+6w3x71qAtfc=",
       "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-opmQFQRtCspfcXfUyBWT4ecELRoD0q/n2DkAvQ6lu/A=",
       "Microsoft.Extensions.Configuration.Json.wasm": "sha256-Sxmy2ZS134URxbHEvdbS6NcQ3zXS7UWx/5ZPpwiW7FA=",
@@ -38,8 +38,8 @@
       "Microsoft.Extensions.Logging.wasm": "sha256-8BH+kQfjYuZWxprOICXJ4+tU0OdJOYDKN7G0S3zYYHI=",
       "Microsoft.Extensions.Options.wasm": "sha256-gE1BXyLWVUnQwUrxnkNGo22RSc/PIEaAypz1VWboWP4=",
       "Microsoft.Extensions.Primitives.wasm": "sha256-Ms2HR5Gpug/0uRAzdk4SUNT76Ml3CjFv9Jo+dUIMGac=",
-      "Microsoft.FluentUI.AspNetCore.Components.Icons.wasm": "sha256-Zlj3oUzUZ4Q73R01v7xmTimhZVHrvnoBuwoDNNk4WNQ=",
-      "Microsoft.FluentUI.AspNetCore.Components.wasm": "sha256-RpkO9x0wGmhtXIenuG91gyIyGXREPiOqPwdGfLhXQZI=",
+      "Microsoft.FluentUI.AspNetCore.Components.Icons.wasm": "sha256-A6S64RgKuJRzLgtH69MIwj3MzZ/TvPkh9iey43xeR2M=",
+      "Microsoft.FluentUI.AspNetCore.Components.wasm": "sha256-N7mg892xCGSf+5rC8kDlc4qWFx1i+Cb3moU5xzeWuys=",
       "Microsoft.JSInterop.wasm": "sha256-pVRRYCn1SbN88TrMMc/8fnuq/TZKGOUjnRKRUjL6nnI=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-i8yLC1pzEZMAPAHK2MyunJW81S6Tpyvwka9LDZSylx8=",
       "System.Collections.Concurrent.wasm": "sha256-4+/J5U6zx+AI/n2+O0Oz+4V+D3Kz7H16hSn4vM1h9L0=",
@@ -60,10 +60,10 @@
       "System.Net.Http.wasm": "sha256-cxBdwcDoJPK81f0SUUnIW0bSpwbYMLoQTckAh0ZnAfk=",
       "System.Net.Primitives.wasm": "sha256-1eFE+qs2Ap6yTGNdu+B9W2n+SQSmTUD2aIyvxtxjz/E=",
       "System.ObjectModel.wasm": "sha256-mtk7Gq3dq+/upIHc3CK43NlPDqxtF+ucWMnpVXZu5ko=",
-      "System.Private.CoreLib.wasm": "sha256-2cELKEevdGQQhLBz+Vg4dyZnv18C9ALK5p4abFV/Y+o=",
+      "System.Private.CoreLib.wasm": "sha256-HMwqYQSQF3CRRXCWMfYAQThSPSn8jtdSKHJ9JOrn6Os=",
       "System.Private.Uri.wasm": "sha256-deAv1BrLO+BgyDKJABktWRTOoWRhjQgL7DM/CjGhsbA=",
       "System.Runtime.InteropServices.JavaScript.wasm": "sha256-zTqW/61ZfgAcTG0N0MqjMcLniUHSDydfBTR0rX+ec5Y=",
-      "System.Runtime.wasm": "sha256-hlWwixMBAJTKjSZea0ACO4hvtj25H82qPjYqcqhGa70=",
+      "System.Runtime.wasm": "sha256-nfLGjYqqzpEeMJu/LL4B0bwUMffJzAr7mfiPkwklUTA=",
       "System.Security.Cryptography.wasm": "sha256-Zz8QI2BxcdMIeZbhkBc36NXNRAHbb076zFhfsAunTEY=",
       "System.Text.Encodings.Web.wasm": "sha256-HZ5PQeYmxVQFvuP7xgbdAOo1L7NBedG5NGXWWc4mtgs=",
       "System.Text.Json.wasm": "sha256-pkqqHE8NOUcy/cxO/w8khGvLhln7lkjk8dZqJZwQai8=",
@@ -73,14 +73,14 @@
     },
     "satelliteResources": {
       "de": {
-        "Blazor.App.Core.resources.wasm": "sha256-N1T3j0va15o0wLtbWjG1bxyJs956DvVA2It+Rz7VfMs="
+        "Blazor.App.Core.resources.wasm": "sha256-fFlJx1PiRJ7rnbU5aGdfzIRuO5P9PlI/HEvgcvTpyaU="
       }
     },
     "libraryInitializers": {
-      "_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js": "sha256-tCNvc+RqZKkCWn6NZYuFTUAj3t6/F9XACK3WI2XDwBQ="
+      "_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js": "sha256-RmvMcVnaeIRFAprYkJxKQJKCaN39lVu4wX5+SrfqOMo="
     },
     "modulesAfterConfigLoaded": {
-      "../_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js": "sha256-tCNvc+RqZKkCWn6NZYuFTUAj3t6/F9XACK3WI2XDwBQ="
+      "../_content/Microsoft.FluentUI.AspNetCore.Components/Microsoft.FluentUI.AspNetCore.Components.lib.module.js": "sha256-RmvMcVnaeIRFAprYkJxKQJKCaN39lVu4wX5+SrfqOMo="
     }
   },
   "cacheBootResources": true,

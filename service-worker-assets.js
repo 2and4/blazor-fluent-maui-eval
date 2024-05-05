@@ -1,7 +1,7 @@
 ﻿self.assetsManifest = {
   "assets": [
     {
-      "hash": "sha256-mUsayNV2RyBH3dgxtI41RQDJ51oQQB7e1fxHCcIrdwI=",
+      "hash": "sha256-0\/FOgyMauYwy9lFOCe+lxB3g1\/R8luS40bOUR0Q2m3k=",
       "url": "index.html"
     },
     {
@@ -25,7 +25,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-2eg7gnZFCA73JMrmeQNToefskRZTW7ofVhXUoyUdPmQ=",
+      "hash": "sha256-KztexgHtGRn3TWOYElqk+Wboh8XLtIexVfYuLNABJeo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -33,39 +33,39 @@
       "url": "_framework\/dotnet.native.8.0.4.x4dtp32a66.js"
     },
     {
-      "hash": "sha256-xIm6ZWD\/yvGguam4JDDFouRAPIzSDqC3S98aB01pcRk=",
+      "hash": "sha256-c\/YNInVlNmLk5V91D9hrOYRTlJPqiB24Y1ij51bG\/qQ=",
       "url": "_framework\/dotnet.native.wasm"
     },
     {
-      "hash": "sha256-nikAeak9mRpcFJlaBs+CF78lEJ9Lpw7MVCy3DRPTpu4=",
+      "hash": "sha256-f11zx14L6oAPQWCBnZbuNoMDwUSw2y4aif6+rLG3fFs=",
       "url": "_framework\/Blazor.App.Core.Presenters.wasm"
     },
     {
-      "hash": "sha256-52gtdRb1+GbzHphDwONMmAIECpunp98rtg5NnG8Ey1A=",
+      "hash": "sha256-SW52qX0HPF94CThdyg31UvsnWevKXUXDaJYQROXfwEU=",
       "url": "_framework\/Blazor.App.Core.Services.wasm"
     },
     {
-      "hash": "sha256-F6O97Fhx3IelKy75ufJXJ75C0QlLCBAm8CEQp8xUsr0=",
+      "hash": "sha256-YVu6h+8EjdVUcIVt+qHjRAeKuXoifiJK+r8poF2SpeE=",
       "url": "_framework\/Blazor.App.Core.Views.wasm"
     },
     {
-      "hash": "sha256-Vd3LHWcl\/nSBoZkXOwBwLtt5WnkIlvHjIh8dLWFm9rA=",
+      "hash": "sha256-cPcv+2w7J2PXFUWTk0ZxT4YkQJUBQMHRx9NLiRitmQ4=",
       "url": "_framework\/Blazor.App.Core.wasm"
     },
     {
-      "hash": "sha256-zCPfMnSRroMKoa4wwBI6M2NAW+QKKGNPIQHRclg7m+o=",
+      "hash": "sha256-\/Upc8LiVV9DC8S91gh3sMP3BTyEhphdeViAMGBXglRI=",
       "url": "_framework\/Blazor.App.Wasm.wasm"
     },
     {
-      "hash": "sha256-P0b7hsw7x8uUf8J3fw9p3\/x5WWyMsycQ1cX6pIOdQzI=",
+      "hash": "sha256-L3ApVeQH9+aRjCvfZX8ts1wMCjKB5n+scy98I\/Foi3A=",
       "url": "_framework\/Blazor.Shared.Presenters.wasm"
     },
     {
-      "hash": "sha256-yyIN8XfLBJZbs8pjmZDom03lBXaFJM\/jG4fICuXkJpc=",
+      "hash": "sha256-KRA4AHSzwZUcBSvm8KZIrfGm0kNWG38yJN80vLZrXXA=",
       "url": "_framework\/Blazor.Shared.Services.wasm"
     },
     {
-      "hash": "sha256-FeP2CySS8SYsbhQnhYL9+bmMP4miQnatgJHnU+W3KWY=",
+      "hash": "sha256-\/YC++nrVJgRUny05Vbl\/2BdNAp1uArsQhK6HBZDCpMg=",
       "url": "_framework\/Blazor.Shared.Views.wasm"
     },
     {
@@ -77,7 +77,7 @@
       "url": "_framework\/Microsoft.AspNetCore.Components.wasm"
     },
     {
-      "hash": "sha256-LFtz1MqQGB5w0hPIWYfZtJNBJPApOIkluRXFflP5Ky8=",
+      "hash": "sha256-eTKiTIv2h7yhHseBO2rmhKKPohJrqDf0fOwNaR8r41o=",
       "url": "_framework\/Microsoft.AspNetCore.Components.Web.wasm"
     },
     {
@@ -129,11 +129,11 @@
       "url": "_framework\/Microsoft.Extensions.Primitives.wasm"
     },
     {
-      "hash": "sha256-Zlj3oUzUZ4Q73R01v7xmTimhZVHrvnoBuwoDNNk4WNQ=",
+      "hash": "sha256-A6S64RgKuJRzLgtH69MIwj3MzZ\/TvPkh9iey43xeR2M=",
       "url": "_framework\/Microsoft.FluentUI.AspNetCore.Components.Icons.wasm"
     },
     {
-      "hash": "sha256-RpkO9x0wGmhtXIenuG91gyIyGXREPiOqPwdGfLhXQZI=",
+      "hash": "sha256-N7mg892xCGSf+5rC8kDlc4qWFx1i+Cb3moU5xzeWuys=",
       "url": "_framework\/Microsoft.FluentUI.AspNetCore.Components.wasm"
     },
     {
@@ -217,7 +217,7 @@
       "url": "_framework\/System.ObjectModel.wasm"
     },
     {
-      "hash": "sha256-2cELKEevdGQQhLBz+Vg4dyZnv18C9ALK5p4abFV\/Y+o=",
+      "hash": "sha256-HMwqYQSQF3CRRXCWMfYAQThSPSn8jtdSKHJ9JOrn6Os=",
       "url": "_framework\/System.Private.CoreLib.wasm"
     },
     {
@@ -229,7 +229,7 @@
       "url": "_framework\/System.Runtime.InteropServices.JavaScript.wasm"
     },
     {
-      "hash": "sha256-hlWwixMBAJTKjSZea0ACO4hvtj25H82qPjYqcqhGa70=",
+      "hash": "sha256-nfLGjYqqzpEeMJu\/LL4B0bwUMffJzAr7mfiPkwklUTA=",
       "url": "_framework\/System.Runtime.wasm"
     },
     {
@@ -261,12 +261,16 @@
       "url": "appsettings.json"
     },
     {
-      "hash": "sha256-N1T3j0va15o0wLtbWjG1bxyJs956DvVA2It+Rz7VfMs=",
+      "hash": "sha256-fFlJx1PiRJ7rnbU5aGdfzIRuO5P9PlI\/HEvgcvTpyaU=",
       "url": "_framework\/de\/Blazor.App.Core.resources.wasm"
     },
     {
       "hash": "sha256-b9RSPukLvSHekr3kftcukF9Hbr4g1a5l0\/cfyJ61XMA=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Anchor\/FluentAnchor.razor.js"
+    },
+    {
+      "hash": "sha256-em7H1x6ijv\/Ln1xS18rdjLu1JRbd3KqLfbEg9v+9Ot8=",
+      "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/AnchoredRegion\/FluentAnchoredRegion.razor.js"
     },
     {
       "hash": "sha256-8QTQtCTbbHkwqt3rAy8ZPjez2lZ6PGmR5Il+7Q3g\/rs=",
@@ -277,7 +281,7 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Checkbox\/FluentCheckbox.razor.js"
     },
     {
-      "hash": "sha256-A0NrZtCKi0t0bKb861\/RuTn4SjdSJDtBhc2V+QH50Tc=",
+      "hash": "sha256-53I3yhnyYi2WBKWsUlLVZ+E4FzZtSEvBJaKtguEkUzY=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/DataGrid\/FluentDataGrid.razor.js"
     },
     {
@@ -289,7 +293,7 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Divider\/FluentDivider.razor.js"
     },
     {
-      "hash": "sha256-r+FmeZZSFYjk23Dm0+QjfmZnnHAukOKoD8aroGeMU3Y=",
+      "hash": "sha256-V4iZz\/kay7SoC\/eRuDViVZkhxiL1oNW1gzMAFC6k\/wY=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Grid\/FluentGrid.razor.js"
     },
     {
@@ -301,7 +305,7 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/InputFile\/FluentInputFile.razor.js"
     },
     {
-      "hash": "sha256-bV+FwpXTYCvbxYCXZujros4PwFNQffE0ZnXQggDaZ4s=",
+      "hash": "sha256-eyzV6qMKLUmlJTI629bTVVJ5Aer+7RJrOrMWqhFhWAM=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/KeyCode\/FluentKeyCode.razor.js"
     },
     {
@@ -309,7 +313,7 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Label\/FluentInputLabel.razor.js"
     },
     {
-      "hash": "sha256-aUfGKJHmIYCSxmPsVRH+p4d3Mglz5q9h\/VekUJ3AtG0=",
+      "hash": "sha256-zaCr00NpFdoiGXxIeOFcsMRQG2wFBoBLyKP0\/jSJoUw=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/List\/FluentAutocomplete.razor.js"
     },
     {
@@ -341,6 +345,10 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Search\/FluentSearch.razor.js"
     },
     {
+      "hash": "sha256-TAnVg0aJviMtvE8pWYaaZahF5suJcjonGCC7accq76k=",
+      "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Slider\/FluentSlider.razor.js"
+    },
+    {
       "hash": "sha256-Em8bsrj69skLLR4IHVJ8lIJTR1EcY\/U9nvcfn9t1rzo=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Slider\/FluentSliderLabel.razor.js"
     },
@@ -365,7 +373,7 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Components\/Tooltip\/FluentTooltip.razor.js"
     },
     {
-      "hash": "sha256-9FFg9DVrxTH6ZBL922\/bkGiZKT8FPSPFzOtVLPYRz6E=",
+      "hash": "sha256-9Rc\/7JL611zVYPTHC5EIoneK+yRTXCt2uuuxRi7fBjo=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/css\/reboot.css"
     },
     {
@@ -381,7 +389,7 @@
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Microsoft.FluentUI.AspNetCore.Components.lib.module.js.LEGAL.txt"
     },
     {
-      "hash": "sha256-ZDejuEBqFctWelATYM3OSq\/nbDAD+0Xxhe\/xC4J+c8M=",
+      "hash": "sha256-u2YSj10zkR+o1ZsqdI9m4R\/xAwK55fYRppzKyItoJMQ=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Microsoft.FluentUI.AspNetCore.Components.lib.module.js.map"
     },
     {
@@ -449,7 +457,7 @@
       "url": "_content\/Blazor.Shared.Views\/css\/fluent-button.css"
     },
     {
-      "hash": "sha256-I43pBv8zbCAeEz1+gPdLrUbzh8AZRhgvP1cw1LsjutY=",
+      "hash": "sha256-rQPGviDK46Z0QWAM0tVINEDmnyV\/PCmXnL4cu96Xulk=",
       "url": "_content\/Blazor.Shared.Views\/css\/fluent-dialog.css"
     },
     {
@@ -497,6 +505,14 @@
       "url": "_content\/Blazor.Shared.Views\/js\/internal\/environment\/dotNetObjectReference.js.map"
     },
     {
+      "hash": "sha256-O2MG0FqANRIKAUgdFO0mGH2etFD71KjDqFXoq2SrIJ4=",
+      "url": "_content\/Blazor.Shared.Views\/js\/internal\/globalization\/globalization.js"
+    },
+    {
+      "hash": "sha256-lI7XjF9LT4ty0CnIOaZ5s2oJ9JXj82iio918qlPc2J4=",
+      "url": "_content\/Blazor.Shared.Views\/js\/internal\/globalization\/globalization.js.map"
+    },
+    {
       "hash": "sha256-kl0MR8At0sbFGKmYDep5CbomkwsbPOhV7JcipCPUxcw=",
       "url": "_content\/Blazor.Shared.Views\/js\/internal\/helpers\/elementsHelper.js"
     },
@@ -537,19 +553,19 @@
       "url": "_content\/Blazor.Shared.Views\/js\/internal\/helpers\/storageHelper.js.map"
     },
     {
-      "hash": "sha256-Z7XpfcvkclhlFhTQuvyZXzWyQ8PJ4QVE69RXN3vEK44=",
+      "hash": "sha256-39QuMbT3tLWPw0zvzUxkVVKDU49trQvTH\/9Bya4oR9g=",
       "url": "_content\/Blazor.Shared.Views\/js\/internal\/index.js"
     },
     {
-      "hash": "sha256-pRObIECFQygpqDFbkog5GCQSNm0YtOr68sWOZSxuCsY=",
+      "hash": "sha256-luaN5YGO2yx2FfQvXbvGxAUzaNOw1cTJTAcVPrC3\/lc=",
       "url": "_content\/Blazor.Shared.Views\/js\/internal\/index.js.map"
     },
     {
-      "hash": "sha256-JNCYSpqoZd9wvdqtnMjYfbyB7jjJ41rq4jSCXgbZ\/4M=",
+      "hash": "sha256-wAEZCdJY5v98bfLiGbUO3ntYJ7rkq8oyIfofp3xVxVM=",
       "url": "_content\/Blazor.Shared.Views\/js\/internal\/shells\/shell.js"
     },
     {
-      "hash": "sha256-3VKRqeUriPL+9BvfTpPzy2o9Nh+0riyA2aF6SDef\/IY=",
+      "hash": "sha256-bp2YNrkVlk5o4ucG6a6M64aUPxCooVgQCKD+eJVu16E=",
       "url": "_content\/Blazor.Shared.Views\/js\/internal\/shells\/shell.js.map"
     },
     {
@@ -625,7 +641,7 @@
       "url": "_content\/Blazor.Shared.Views\/js\/internal\/tests\/specs\/specs.js.map"
     },
     {
-      "hash": "sha256-F7yWty64\/lN6ZReTByPVcoky2hTHDtuRyMzYFuNF+WY=",
+      "hash": "sha256-pSUKGFRvMqxbjoBWF4VfnW5FQSuJ8q2PRvnzaEVGLnk=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Microsoft.FluentUI.AspNetCore.Components.bundle.scp.css"
     },
     {
@@ -637,9 +653,9 @@
       "url": "_content\/Blazor.Shared.Views\/Blazor.Shared.Views.bundle.scp.css"
     },
     {
-      "hash": "sha256-tCNvc+RqZKkCWn6NZYuFTUAj3t6\/F9XACK3WI2XDwBQ=",
+      "hash": "sha256-RmvMcVnaeIRFAprYkJxKQJKCaN39lVu4wX5+SrfqOMo=",
       "url": "_content\/Microsoft.FluentUI.AspNetCore.Components\/Microsoft.FluentUI.AspNetCore.Components.lib.module.js"
     }
   ],
-  "version": "TAoCgxEL"
+  "version": "U6D\/JD4Q"
 };

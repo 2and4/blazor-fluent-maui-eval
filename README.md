@@ -1,8 +1,8 @@
 Blazor Fluent Maui Evaluation
 ===
 
-This application serves as an evaluation tool for combining Microsoft technologies: Blazor, Fluent UI, and .NET MAUI.
-It facilitates the utilization of a unified codebase for both web applications (WASM, Server) and native applications (Android, iOS, iPadOS, MacOS, Windows).
+This application serves as an evaluation tool for combining Microsoft technologies: Blazor, Fluent UI, and .Net Maui.
+It facilitates the utilization of a unified codebase for both web applications (Wasm, Server) and native applications (Android, iOS, iPadOS, MacOS, Windows).
 <br/><br/>
 The shared codebase offers flexibility in choosing various platforms, reduces maintenance overhead and enables the development of a consistent testing strategy.
 <br/>
@@ -10,11 +10,11 @@ The shared codebase offers flexibility in choosing various platforms, reduces ma
 ## Platforms
 
 ### Web (Blazor)
-* WebAssambly (WASM)<br/>
+* WebAssambly (Wasm)<br/>
 **-> [Start Web Application](https://2and4.github.io/blazor-fluent-maui-eval/)**
-* Hybrid (WASM/Server)
+* Hybrid (Wasm/Server)
 
-### Native (.NET MAUI)
+### Native (.Net Maui)
 
 #### Desktop
 * Windows **(x64/arm64)**
@@ -26,17 +26,11 @@ The shared codebase offers flexibility in choosing various platforms, reduces ma
 
 ## Native Application Images
 
-### Windows Dark Theme
-![Windows Dark Theme](https://2and4.github.io/blazor-fluent-maui-eval/_assets/BFM_Windows_Dark.png "Windows Dark Theme")
+### Windows
+![Windows Theme](https://2and4.github.io/blazor-fluent-maui-eval/_assets/BFM_Windows.png "Windows Theme")
 
-### Windows Light Theme
-![Windows Light Theme](https://2and4.github.io/blazor-fluent-maui-eval/_assets/BFM_Windows_Light.png "Windows Light Theme")
-
-### MacOS Dark Theme
-![MacOs Dark Theme](https://2and4.github.io/blazor-fluent-maui-eval/_assets/BFM_MacOs_Dark.png "MacOs Dark Theme")
-
-### MacOS Light Theme
-![MacOs Light Theme](https://2and4.github.io/blazor-fluent-maui-eval/_assets/BFM_MacOs_Light.png "MacOs Light Theme")
+### MacOS
+![MacOs Theme](https://2and4.github.io/blazor-fluent-maui-eval/_assets/BFM_MacOS.png "MacOs Theme")
 
 ### Android and iOS
 ![Android and iOS Theme](https://2and4.github.io/blazor-fluent-maui-eval/_assets/BFM_Mobile_DarkAndLight.png "Android and iOS Theme")

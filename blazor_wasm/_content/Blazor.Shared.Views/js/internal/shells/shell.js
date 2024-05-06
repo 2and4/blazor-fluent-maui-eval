@@ -14,13 +14,13 @@ export class Shell {
         this._window = this._document.defaultView;
         this._designThemeElement = this._body.querySelector("fluent-design-theme");
         this._mediaQueryMaxWidth = this._window.matchMedia("(max-width: 680px)");
-        this._mediaQueryMaxWidth.addEventListener("change", (e) => this.OnSceenSizeChangedAsync(e.matches));
+        this._mediaQueryMaxWidth.addEventListener("change", (e) => this.OnScreenSizeChangedAsync(e.matches));
         this._mediaQueryPreferedColor = this._window.matchMedia("(prefers-color-scheme: dark)");
         this._mediaQueryPreferedColor.addEventListener("change", (e) => this.setTheme(e.matches ? "dark" : "light"));
     }
     setCallback(callback) {
         this._callback = callback;
-        this.OnSceenSizeChangedAsync(this._mediaQueryMaxWidth.matches);
+        this.OnScreenSizeChangedAsync(this._mediaQueryMaxWidth.matches);
     }
     getAccent() {
         var _a;
@@ -48,9 +48,6 @@ export class Shell {
         }
         this._body.classList.add(`color-scheme-${theme}`);
     }
-    setFlowDirection(flowDirection) {
-        this._body.setAttribute("dir", flowDirection);
-    }
     changeBackgroundImage(imagePath) {
         return __awaiter(this, void 0, void 0, function* () {
             const backgroundContainers = Array.from(this._document.getElementsByClassName("bfm-shell-background"));
@@ -68,7 +65,7 @@ export class Shell {
             }
         });
     }
-    OnSceenSizeChangedAsync(isMobile) {
+    OnScreenSizeChangedAsync(isMobile) {
         return __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
             if (!isMobile) {

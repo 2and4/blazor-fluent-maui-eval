@@ -1,4 +1,4 @@
-Blazor Fluent Maui Evaluation
+Blazor Fluent Maui Evaluation (v.1.0.1)
 ===
 
 This application serves as an evaluation tool for combining Microsoft technologies: Blazor, Fluent UI, and .Net Maui.

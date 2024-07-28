@@ -1,9 +1,8 @@
 /* _content/Blazor.Shared.Views/Panels/Panel.razor.rz.scp.css */
 .bfm-panel[b-dhr0joyuuh] {
-    position: absolute;
     width: 350px;
     min-width: 350px;
-    height: calc(100% - 48px);
+    height: 100%;
     padding: 6px 10px 10px 10px;
 }
 
@@ -14,8 +13,6 @@
 
 @media (max-width: 680px) {
     .bfm-panel[b-dhr0joyuuh] {
-        position: absolute;
-        left: 0;
         width: 100%;
     }
 }
@@ -88,9 +85,10 @@
 
 .bfm-shell-top-bar-title-windows[b-735sd5h776] {
     display: grid;
-    align-items: end;
-    padding: 0 0 3px 10px;
+    align-items: center;
+    padding: 0 0 0 10px;
     font-size: 12px;
+    pointer-events: none;
 }
 
 .bfm-shell-top-bar-title-osx[b-735sd5h776] {
@@ -99,6 +97,7 @@
     justify-items: center;
     padding: 0 0 3px 0;
     font-size: 14px;
+    pointer-events: none;
 }
 
 .bfm-shell-top-bar-content[b-735sd5h776] {
@@ -124,6 +123,7 @@
 .bfm-shell-content-container-blocker[b-735sd5h776] {
     position: absolute;
     left: 0;
+    top:0;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.2);
@@ -134,9 +134,14 @@
 }
 
 .bfm-shell-content-layout[b-735sd5h776] {
+    position: absolute;
     width: 100%;
-    height: 100%;
-    overflow-y: auto;
+}
+
+@media (max-width: 680px) {
+    .bfm-shell-content-layout[b-735sd5h776] {
+        left: 0;
+    }
 }
 /* _content/Blazor.Shared.Views/Shells/ShellSettings.razor.rz.scp.css */
 .bfm-content-grid[b-1mm460icpr] {

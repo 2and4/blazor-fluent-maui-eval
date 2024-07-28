@@ -59,3 +59,8 @@
 .display-none {
     display: none;
 }
+
+.user-select-allowed {
+    user-select: initial;
+    -webkit-user-select: initial;
+}

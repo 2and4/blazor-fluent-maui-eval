@@ -10,6 +10,7 @@
 @import "bfm-loading.css";
 @import "bfm-scrollbars.css";
 @import "bfm-animations.css";
+@import "bfm-tooltip.css";
 @import "bfm-custom.css";
 
 html, body, #app {
@@ -50,6 +51,9 @@ h2 {
 }
 
 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     pointer-events: none;
 }
 

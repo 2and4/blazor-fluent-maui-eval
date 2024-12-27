@@ -13,10 +13,7 @@
     <link rel="stylesheet" href="_content/Microsoft.FluentUI.AspNetCore.Components/css/reboot.css" />
     <link rel="stylesheet" href="Blazor.App.Wasm.styles.css" />
     <link rel="stylesheet" href="_content/Blazor.App.Core/css/styles.css" />
-    <script src="_framework/blazor.webassembly.js"></script>
-    <script src="_content/Blazor.Shared.Views/js/internal/index.js" type="module"></script>
     <script src="_content/Microsoft.FluentUI.AspNetCore.Components/js/loading-theme.js"></script>
-    <!--<script>navigator.serviceWorker.register('_content/Blazor.App.Core/js/external/service-worker.js');</script>-->
 </head>
 <body>
     <loading-theme storage-name="theme"></loading-theme>
@@ -32,5 +29,9 @@
     <div id="blazor-error-ui">
         An unhandled error has occurred.
     </div>
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
+    <script src="_content/Blazor.Shared.Views/js/internal/index.js" type="module"></script>
+    <script src="_content/Blazor.Shared.Views/js/external/brotli-decoder.js" type="module"></script>
+    <!--<script>navigator.serviceWorker.register('_content/Blazor.App.Core/js/external/service-worker.js');</script>-->
 </body>
 </html>

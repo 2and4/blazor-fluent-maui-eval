@@ -8,7 +8,7 @@
     <meta name="description" content="This application serves as an evaluation tool for combining Microsoft technologies: Blazor, Fluent UI, and .NET MAUI." />
     <title>Blazor Fluent Maui Eval</title>
     <base href="/blazor-fluent-maui-eval/" />
-    <link rel="manifest" href="_content/Blazor.App.Core/manifest.json" />
+    <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="_content/Blazor.App.Core/favicon.ico" />
     <link rel="stylesheet" href="_content/Microsoft.FluentUI.AspNetCore.Components/css/reboot.css" />
     <link rel="stylesheet" href="Blazor.App.Wasm.styles.css" />
@@ -31,7 +31,6 @@
     </div>
     <script src="_framework/blazor.webassembly.js" autostart="false"></script>
     <script src="_content/Blazor.Shared.Views/js/internal/index.js" type="module"></script>
-    <script src="_content/Blazor.Shared.Views/js/external/brotli-decoder.js" type="module"></script>
-    <!--<script>navigator.serviceWorker.register('_content/Blazor.App.Core/js/external/service-worker.js');</script>-->
+    <script src="js/external/brotli-decoder.js" type="module"></script>
 </body>
 </html>

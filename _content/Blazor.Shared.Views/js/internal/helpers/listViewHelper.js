@@ -14,8 +14,9 @@ export class ListViewHelper {
             return;
         fluentSelects.forEach((fluentSelect) => {
             const shadowRoot = fluentSelect.shadowRoot;
-            const listbox = shadowRoot.querySelector(".listbox");
-            this.insertAnimationsStyles(listbox);
+            const listbox = shadowRoot === null || shadowRoot === void 0 ? void 0 : shadowRoot.querySelector(".listbox");
+            if (listbox)
+                this.insertAnimationsStyles(listbox);
         });
     }
     insertAnimationsStyles(element) {
@@ -30,12 +31,12 @@ export class ListViewHelper {
         if (!items)
             return;
         const selectedItem = items[selectedIndex];
-        let itemsToClean = element.querySelectorAll(`[${this._selectedAttributeName}]`);
+        let itemsToClean = element === null || element === void 0 ? void 0 : element.querySelectorAll(`[${this._selectedAttributeName}]`);
         itemsToClean === null || itemsToClean === void 0 ? void 0 : itemsToClean.forEach((ele) => {
             if (!selectedItem || ele !== selectedItem)
                 ele.removeAttribute(this._selectedAttributeName);
         });
-        itemsToClean = element.querySelectorAll(`[${this._ariaSelectedAttributeName}]`);
+        itemsToClean = element === null || element === void 0 ? void 0 : element.querySelectorAll(`[${this._ariaSelectedAttributeName}]`);
         itemsToClean === null || itemsToClean === void 0 ? void 0 : itemsToClean.forEach((ele) => {
             if (!selectedItem || ele !== selectedItem)
                 ele.setAttribute(this._ariaSelectedAttributeName, "false");

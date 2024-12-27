@@ -36,15 +36,7 @@ export class Animations {
         setTimeout(() => dialog.classList.add("slide-in-right"), 50);
     }
     slideOutDialog(elementId) {
-        var _a;
-        const fluentDialog = this._document.getElementById(elementId);
-        const dialog = fluentDialog === null || fluentDialog === void 0 ? void 0 : fluentDialog.dialog;
-        if (!dialog)
-            return;
-        dialog.classList.add("invisible");
-        const overlay = (_a = fluentDialog === null || fluentDialog === void 0 ? void 0 : fluentDialog.shadowRoot) === null || _a === void 0 ? void 0 : _a.querySelector(".overlay");
-        this.hideOverlay(overlay);
-        return new Promise((resolve) => setTimeout(resolve, 200));
+        return this.scaleOutDialog(elementId);
     }
     insertAnimationsStyles(dialog) {
         const style = document.createElement("style");

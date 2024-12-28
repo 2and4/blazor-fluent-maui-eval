@@ -8,10 +8,8 @@
     <meta name="description" content="This application serves as an evaluation tool for combining Microsoft technologies: Blazor, Fluent UI, and .NET MAUI." />
     <title>Blazor Fluent Maui Eval</title>
     <base href="/blazor-fluent-maui-eval/" />
-    <link rel="manifest" href="manifest.webmanifest" />
-    <link rel="icon" href="_content/Blazor.App.Core/favicon.ico" />
-    <link rel="stylesheet" href="css/styles.css" />
     <script src="_content/Microsoft.FluentUI.AspNetCore.Components/js/loading-theme.js"></script>
+    <script src="js/initialize.js"></script>
 </head>
 <body>
     <loading-theme storage-name="theme"></loading-theme>
@@ -27,7 +25,7 @@
     <div id="blazor-error-ui">
         An unhandled error has occurred.
     </div>
+    <script src="_framework/blazor.webassembly.js" autostart="false"></script>
     <script src="js/index.js" type="module"></script>
-    <script src="_framework/blazor.webassembly.js" ></script>
 </body>
 </html>

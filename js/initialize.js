@@ -24,7 +24,7 @@ function createJavaScript(path) {
 async function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         try {
-            await navigator.serviceWorker.register('/service-worker.js');
+            await navigator.serviceWorker.register('../service-worker.js');
             await navigator.serviceWorker.ready;
             if (navigator.serviceWorker.controller === null) {
                 location.reload();

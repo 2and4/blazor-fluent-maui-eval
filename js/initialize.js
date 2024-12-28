@@ -24,12 +24,13 @@ function createJavaScript(path) {
 async function registerServiceWorker() {
     if ('serviceWorker' in navigator) {
         try {
-            await navigator.serviceWorker.register('../service-worker.js');
+            const baseUrl = document.querySelector('base').href;
+            const serviceWorkerPath = `${baseUrl}service-worker.js`;
+            await navigator.serviceWorker.register(serviceWorkerPath);
             await navigator.serviceWorker.ready;
             if (navigator.serviceWorker.controller === null) {
                 location.reload();
             }
-            console.log('Service Worker active.');
         } catch (error) {
             console.error('Service Worker failed.', error);
         }

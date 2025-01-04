@@ -1,0 +1,4 @@
+﻿body, div {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb,var(--neutral-foreground-rest),#0000 60%) transparent;
+}

@@ -1,6 +1,12 @@
 # Changelog
 
-## 1.1.0
+## v1.1.1
+
+**General**
+
+- Fixed dropdown animations in the settings menu.
+
+## v1.1.0
 
 **General**
 

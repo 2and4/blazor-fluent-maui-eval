@@ -1,5 +1,6 @@
 Blazor Fluent Maui Evaluation ([.NET 9](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-9/overview))
 ===
+### Version 1.1.1
 
 This application serves as an evaluation tool for combining Microsoft technologies: Blazor, Fluent UI, and .Net Maui.<br/>
 It facilitates the utilization of a unified codebase for both web applications (Server, Wasm) and native applications (Android, iOS, iPadOS, MacOS, Windows).
@@ -9,7 +10,6 @@ The shared codebase offers flexibility in choosing various platforms. It reduces
 
 #### These demo applications are intended for testing purposes only.
 * Please ensure you use them in a safe and/or sandboxed environment.
-
 * **[Changelog](/CHANGELOG.md)**
 
 ## Platforms

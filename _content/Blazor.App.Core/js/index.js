@@ -1,1 +1,0 @@
-﻿import '../../Blazor.Shared.Views/js/index.js';

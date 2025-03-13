@@ -1,17 +1,17 @@
 {
   "mainAssemblyName": "Blazor.App.Wasm",
   "resources": {
-    "hash": "sha256-bKeO9n1lI21CQkh+MYiXVESoUrrKEqoSnb6v6RyQPbw=",
+    "hash": "sha256-rXa+3P81M2KbQwf2wj1qu04nPnH1rvweqtKL+D0mmhs=",
     "fingerprinting": {
-      "Blazor.App.Core.Presenters.w9j97d7izo.wasm": "Blazor.App.Core.Presenters.wasm",
-      "Blazor.App.Core.Services.h5haffh1ck.wasm": "Blazor.App.Core.Services.wasm",
-      "Blazor.App.Core.Views.5657wmiisa.wasm": "Blazor.App.Core.Views.wasm",
-      "Blazor.App.Core.d898dkaoay.wasm": "Blazor.App.Core.wasm",
-      "Blazor.App.Wasm.q5bgfw66tj.wasm": "Blazor.App.Wasm.wasm",
-      "Blazor.Shared.App.t62zgnhnk7.wasm": "Blazor.Shared.App.wasm",
-      "Blazor.Shared.Presenters.pj2ydysi5i.wasm": "Blazor.Shared.Presenters.wasm",
-      "Blazor.Shared.Services.37cctg0bim.wasm": "Blazor.Shared.Services.wasm",
-      "Blazor.Shared.Views.mzmimkecls.wasm": "Blazor.Shared.Views.wasm",
+      "Blazor.App.Core.Presenters.j2bq7h0oec.wasm": "Blazor.App.Core.Presenters.wasm",
+      "Blazor.App.Core.Services.2c51weqgmj.wasm": "Blazor.App.Core.Services.wasm",
+      "Blazor.App.Core.Views.8d5mbt5i9g.wasm": "Blazor.App.Core.Views.wasm",
+      "Blazor.App.Core.31chynqsim.wasm": "Blazor.App.Core.wasm",
+      "Blazor.App.Wasm.vvttuz6hkl.wasm": "Blazor.App.Wasm.wasm",
+      "Blazor.Shared.App.y5pa3npunr.wasm": "Blazor.Shared.App.wasm",
+      "Blazor.Shared.Presenters.9n8swolhmy.wasm": "Blazor.Shared.Presenters.wasm",
+      "Blazor.Shared.Services.9b06k1h4f9.wasm": "Blazor.Shared.Services.wasm",
+      "Blazor.Shared.Views.s0a8g86die.wasm": "Blazor.Shared.Views.wasm",
       "Microsoft.AspNetCore.Components.Forms.exs8lwwswg.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.yb6kklfqfb.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.n8bs1yb0i3.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -62,7 +62,7 @@
       "System.Threading.u9nh6upk0z.wasm": "System.Threading.wasm",
       "System.icunsnzrqy.wasm": "System.wasm",
       "dotnet.native.cyprd8v105.js": "dotnet.native.js",
-      "dotnet.native.ad12ea0cxp.wasm": "dotnet.native.wasm",
+      "dotnet.native.fsjdzsfrsz.wasm": "dotnet.native.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.runtime.qrl1fuqt3c.js": "dotnet.runtime.js",
       "icudt.oh1zvcfom8.dat": "icudt.dat"
@@ -74,21 +74,21 @@
       "dotnet.runtime.qrl1fuqt3c.js": "sha256-ilTXrnUF4HKbIAFVIYlRmX3ryKNZpGUObkWMF0n2Kcg="
     },
     "wasmNative": {
-      "dotnet.native.ad12ea0cxp.wasm": "sha256-kladapvTDz3C0iKgVPx21CPvSoHmqGGbtRd87BCQN7Y="
+      "dotnet.native.fsjdzsfrsz.wasm": "sha256-b0i/cKGQEdNneVGSwL47ZMxsKZ8hcPnCIS6bR8776W0="
     },
     "icu": {
       "icudt.oh1zvcfom8.dat": "sha256-tO5O5YzMTVSaKBboxAqezOQL9ewmupzV2JrB5Rkc8a4="
     },
     "coreAssembly": {
-      "Blazor.App.Core.Presenters.w9j97d7izo.wasm": "sha256-LIsuZEh5j1CO6S5xpkc1cfiPgnTqAZ91fCyEsOlc7Pg=",
-      "Blazor.App.Core.Services.h5haffh1ck.wasm": "sha256-VdDh1M29zpgF2MuIGsrnBx1xA1xqqqOoc5kGlEgd3zY=",
-      "Blazor.App.Core.Views.5657wmiisa.wasm": "sha256-7e2mXlOopjQRxk/YV+tnasR5IWz2rb6SJ2z3S8qYAyE=",
-      "Blazor.App.Core.d898dkaoay.wasm": "sha256-Q4KpSxa3HaWHokX56ZOJa2p8WMltpPCljkDfmfYk1Jg=",
-      "Blazor.App.Wasm.q5bgfw66tj.wasm": "sha256-fmsZ7QGqeZtldttqc0QH5YQGdv8clTCsQUbOLmY0Sh8=",
-      "Blazor.Shared.App.t62zgnhnk7.wasm": "sha256-1ZEPtOBvYV1zUOMiUR65nXLgQNGPnQc1WCoAXofM6w8=",
-      "Blazor.Shared.Presenters.pj2ydysi5i.wasm": "sha256-m4mtEw2PusbChdx9LduFt5eJ0k5mGYf07mJ54kOXlvI=",
-      "Blazor.Shared.Services.37cctg0bim.wasm": "sha256-Qfre9Q8xdrf/r2Pw2ASkb9FtJDc+p7xjKDFazddMrQM=",
-      "Blazor.Shared.Views.mzmimkecls.wasm": "sha256-HjXXGtUYWajiaCcSlEyc8BNFm23qE793F3KdVhlSmc0=",
+      "Blazor.App.Core.Presenters.j2bq7h0oec.wasm": "sha256-iwX/cvqgRlpnZPsMQ0iZEAYTUU16E9bfcYevI/BQMws=",
+      "Blazor.App.Core.Services.2c51weqgmj.wasm": "sha256-vnYImX36FbepAzWZo1y93DfaYfREOzhKuyflhqFfEKw=",
+      "Blazor.App.Core.Views.8d5mbt5i9g.wasm": "sha256-VOwcObBywCXOqrLYVF3SgKHnxqkuASnCU0YcRd5dNwk=",
+      "Blazor.App.Core.31chynqsim.wasm": "sha256-JxU51eQrvYsWY/od0L3EwBGB4EJEX1YY1+5p0y6j9pA=",
+      "Blazor.App.Wasm.vvttuz6hkl.wasm": "sha256-iybvT4xrk74RiyB5PWHuU8bdvdjPXzdNI9vaKJunu2o=",
+      "Blazor.Shared.App.y5pa3npunr.wasm": "sha256-5kywMBLHUhlZ6aLrfLo3IomLqG0T5Fz6LW8CA3TNCd0=",
+      "Blazor.Shared.Presenters.9n8swolhmy.wasm": "sha256-O9Wr40lPnlfsnIfySFFiq2Z/sAX12TaiF+7CfQ4dDao=",
+      "Blazor.Shared.Services.9b06k1h4f9.wasm": "sha256-FY/bNaE4BoZKJEovYU6kWmq1i7cHwxZgxzyj0rAIch4=",
+      "Blazor.Shared.Views.s0a8g86die.wasm": "sha256-REu97VPw1UqW5bE88JeyPdz7wDQKnBz1BpyBHQgoaRY=",
       "Microsoft.AspNetCore.Components.Forms.exs8lwwswg.wasm": "sha256-cvk1lzGt3olvZx5mXNqZ4vgDiq/QhE9vGe1F2LAGh5I=",
       "Microsoft.AspNetCore.Components.yb6kklfqfb.wasm": "sha256-DtVtbiVZKpcNFMYvdwMwo7nXaU7vd3mIariH+Zfkavk=",
       "Microsoft.AspNetCore.Components.Web.n8bs1yb0i3.wasm": "sha256-50C7ngrJhDJJFo9ektaZZR9O7BJSC7KDYt+yI6prNBU=",

@@ -1,6 +1,6 @@
-Blazor Fluent Maui Evaluation ([.NET 9](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-9/overview))
+Blazor Fluent Maui Evaluation ([.NET 10](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-10/overview))
 ===
-### Version 1.1.1
+### Version 1.1.2
 
 This application serves as an evaluation tool for combining Microsoft technologies: ASP.NET Blazor, Fluent UI, and .NET MAUI.
 It facilitates the utilization of a unified codebase for both web applications (Server, Wasm) and native applications (Android, iOS, iPadOS, MacOS, Windows).
@@ -12,13 +12,13 @@ The shared codebase offers flexibility in choosing various platforms. It reduces
 
 ## Platforms
 
-### Web ([Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-9.0))
+### Web ([Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-10.0))
 * WebAssambly **(wasm)**
     * **[Show Application](https://2and4.github.io/blazor-fluent-maui-eval/)**
 * Server **(x64/arm64)**
     * Linux/MacOS/Windows
 
-### Native ([Blazor Hybrid](https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/?view=aspnetcore-9.0))
+### Native ([Blazor Hybrid](https://learn.microsoft.com/en-us/aspnet/core/blazor/hybrid/?view=aspnetcore-10.0))
 
 #### Desktop
 * Windows **(x64/arm64)**

@@ -1,16 +1,22 @@
 # Changelog
 
-## v1.1.1
+## v.1.1.2
+
+**General**
+
+- Upgrade to .NET 10.
+
+## v.1.1.1
 
 **General**
 
 - Fixed dropdown animations in the settings menu.
 
-## v1.1.0
+## v.1.1.0
 
 **General**
 
-- Upgraded to .NET 9.
+- Upgrade to .NET 9.
 
 **WebAssambly**
 
